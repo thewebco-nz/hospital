@@ -27,7 +27,7 @@
          <div class="row">
             <div class="service-time one" style="background:#2895f1;">
                <span class="info-icon"><i class="fa fa-ambulance" aria-hidden="true"></i></span>
-               <h3>Emergency Cases</h3>
+               <h3>Emergency Cases - 100</h3>
                <p>Dignissimos ducimus qui blanditii sentium volta tum deleniti atque cori as quos dolores et quas mole.</p>
             </div>
          </div>
