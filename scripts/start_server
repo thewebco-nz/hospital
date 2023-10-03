@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /var/www/html/hospital
+source environment/bin/activate
+supervisord -c supervisord.conf
