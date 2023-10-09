@@ -1,5 +1,5 @@
 name: Push-to-EC2
-run-name: ${{ github.actor }} is deploying to AWS EC2 server ${{ secrets.EC2_HOST }}
+run-name: ${{ github.actor }} is deploying to AWS EC2 server
 
 # Trigger deployment only on push to master branch
 on:
