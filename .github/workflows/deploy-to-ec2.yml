@@ -19,14 +19,14 @@ jobs:
 
     steps:
       - name: Checkout the files
-        uses: actions/checkout@v2
-        # uses: actions/checkout@v4
-        # with:
-        #   path: main
+        # uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          path: main
       - name: Install PHP
         uses: "shivammathur/setup-php@v2"
-          with:
-            php-version: ${{ env.PHP_VERSION }}
+        with:
+          php-version: ${{ env.PHP_VERSION }}
       - name: Install Composer
         uses: "ramsey/composer-install@v2"
       - name: Deploy to EC2
