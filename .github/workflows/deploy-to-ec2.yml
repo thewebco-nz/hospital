@@ -15,14 +15,14 @@ jobs:
     name: Deploy to EC2 on master branch push
     runs-on: ubuntu-latest
     environment: production
-    concurrency: production
+    # concurrency: production
 
     steps:
       - name: Checkout the files
-#         uses: actions/checkout@v2
-        uses: actions/checkout@v4
-        with:
-          path: main
+        uses: actions/checkout@v2
+        # uses: actions/checkout@v4
+        # with:
+        #   path: main
 
       - name: Install PHP
         uses: "shivammathur/setup-php@v2"
